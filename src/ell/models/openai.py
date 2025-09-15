@@ -86,6 +86,7 @@ def register(client: openai.Client):
         'gpt-4-0314',
         'gpt-4o-audio-preview',
         'gpt-4o-realtime',
+        'gpt-5',
     ]
     for model_id in standard_models:
         config.register_model(model_id, client)
